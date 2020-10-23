@@ -1,0 +1,42 @@
+---
+# reference: https://docs.travis-ci.com/
+
+language: "python"
+python:
+  - "3.8"
+
+stages:
+  - "lint"
+
+jobs:
+  include:
+
+    - stage: "lint"
+      script:
+        - "pip install yamllint"
+        - "yamllint ."
+
+    - stage: "lint"
+      script:
+        - "pip install codespell"
+        - "codespell -q 3 ."
+
+notifications:
+  email:
+    on_success: "change"
+    on_failure: "always"
+    
+  irc:
+    channels:
+      - "chat.freenode.net#while-true-do"
+    template:
+      - "%{repository_slug} (%{commit}) : %{message}"
+      - "Build details: %{build_url}"
+    use_notice: true
+    on_success: "change"
+    on_failure: "always"
+
+  webhooks:
+    urls:
+      - "https://galaxy.ansible.com/api/v1/notifications/"
+    if: "tag IS present"

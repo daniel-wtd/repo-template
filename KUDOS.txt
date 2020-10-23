@@ -1,0 +1,34 @@
+---
+# reference: https://kudos-txt.io
+
+project:
+
+  - name: "while-true-do.io"
+    site: "https://while-true-do.io"
+    code: "https://github.com/while-true-do"
+    mail: "hello@while-true-do.io"
+    chat: "freenode #while-true-do"
+      
+contributor:
+
+  - name: "<name or nick of the contributor>"
+    role: "<role in the project>"
+    site: "<website url>"
+    blog: "<blog url>"
+    mail: "<mail@domain.tld>"
+    chat: "<service:nick>, <service:channel>, <url>"
+    home: "<country>, <region>, <zip>, <city>, <address>"
+    work: "<company>, <job title>, <job description>"
+    note: "<free text notes>"
+
+partner:
+
+  - name: "KUDOS.txt"
+    site: "https://kudos-txt.io"
+    code: "https://github.com/kudos-txt"
+    mail: "hello@kudos-txt.io"
+
+  - name: "style-cheat"
+    site: "https://style-cheat.io"
+    code: "https://github.com/style-cheat"
+    mail: "hello@style-cheat.io"
