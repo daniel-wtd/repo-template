@@ -4,7 +4,7 @@ reference: https://www.makeareadme.com/
 
 <!-- github shields -->
 [![Github (tag)](https://img.shields.io/github/tag/while-true-do/repo-template?style=flat-square)](https://github.com/while-true-do/repo-template/tags)
-[![Github (license)](https://img.shields.io/github/license/while-true-do/repo-template?style=flat-square)](https://github.com/while-true-do/repo-template/blob/master/LICENSE)
+[![Github (license)](https://img.shields.io/github/license/while-true-do/repo-template?style=flat-square)](https://github.com/while-true-do/repo-template/blob/main/LICENSE)
 [![Github (issues)](https://img.shields.io/github/issues/while-true-do/repo-template?style=flat-square)](https://github.com/while-true-do/repo-template/issues)
 [![Github (pull requests)](https://img.shields.io/github/issues-pr/while-true-do/repo-template?style=flat-square)](https://github.com/while-true-do/repo-template/pulls)
 
@@ -13,19 +13,16 @@ reference: https://www.makeareadme.com/
 
 # While True Do: repo-template
 
-<DESCRIPTION>
+A repository containing the template for new repositories.
 
 ## Table of Contents
 
 - [Motivation](#motivation)
 - [Description](#description)
-- [Requirements](#requirements)
-- [Install](#install)
 - [Usage](#usage)
 - [Known Issues](#known-issues)
-- [Changelog](#changelog)
 - [Contribute](#contribute)
-- [Develop](#develop)
+- [Test](#test)
 - [License](#license)
 - [Contact](#contact)
 
@@ -88,6 +85,6 @@ Except where otherwise noted, all work is [licensed](LICENSE) under a
 Please feel free to get in touch with the developers and contributors.
 
 - Site <https://while-true-do.io>
-- Code <https://github.com/while-true-do/-x>
+- Code <https://github.com/while-true-do/repo-template>
 - Mail [hello@while-true-do.io](mailto:hello@while-true-do.io)
 - Chat [@freenode #while-true-do](https://webchat.freenode.net/#while-true-do)

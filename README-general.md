@@ -9,7 +9,7 @@ Fix links properly and replace <REPONAME>.
 
 <!-- github shields -->
 [![Github (tag)](https://img.shields.io/github/tag/while-true-do/<REPONAME>?style=flat-square)](https://github.com/while-true-do/<REPONAME>/tags)
-[![Github (license)](https://img.shields.io/github/license/while-true-do/<REPONAME>?style=flat-square)](https://github.com/while-true-do/<REPONAME>/blob/master/LICENSE)
+[![Github (license)](https://img.shields.io/github/license/while-true-do/<REPONAME>?style=flat-square)](https://github.com/while-true-do/<REPONAME>/blob/main/LICENSE)
 [![Github (issues)](https://img.shields.io/github/issues/while-true-do/<REPONAME>?style=flat-square)](https://github.com/while-true-do/<REPONAME>/issues)
 [![Github (pull requests)](https://img.shields.io/github/issues-pr/while-true-do/<REPONAME>?style=flat-square)](https://github.com/while-true-do/<REPONAME>/pulls)
 
@@ -37,6 +37,7 @@ It should be the same wording like in the remote repository.
 - [Changelog](#changelog)
 - [Contribute](#contribute)
 - [Develop](#develop)
+- [Test](#test)
 - [License](#license)
 - [Contact](#contact)
 
@@ -174,6 +175,6 @@ Except where otherwise noted, all work is [licensed](LICENSE) under a
 Please feel free to get in touch with the developers and contributors.
 
 - Site <https://while-true-do.io>
-- Code <https://github.com/while-true-do/-x>
+- Code <https://github.com/while-true-do/<REPONAME>>
 - Mail [hello@while-true-do.io](mailto:hello@while-true-do.io)
 - Chat [@freenode #while-true-do](https://webchat.freenode.net/#while-true-do)
